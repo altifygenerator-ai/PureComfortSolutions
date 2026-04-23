@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b1a2b;      /* deep navy blue */
+  --foreground: #f4f4f4;      /* soft white */
+  --accent: #3ba3ff;          /* bold red */
+  --muted: #11263d;           /* darker navy */
+  --border: #1f3a5c;          /* blue-gray border */
+}
+
+/* 🌐 Base Reset */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  scroll-behavior: smooth;
+}
+
+/* 📦 Layout Helpers */
+.container {
+  @apply max-w-6xl mx-auto px-6;
+}
+
+/* 🧱 Sections */
+.section {
+  @apply py-20;
+}
+
+/* 🏷️ Headings */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Oswald", var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  @apply text-4xl md:text-6xl font-semibold leading-tight;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl font-semibold;
+}
+
+h3 {
+  @apply text-xl md:text-2xl font-medium;
+}
+
+/* 📄 Paragraphs */
+p {
+  font-family: "Inter", var(--font-body);
+}
+
+/* 🔘 Buttons */
+.btn-primary {
+  background-color: var(--accent);
+  color: #000;
+  @apply px-6 py-3 font-medium rounded-md transition-all duration-200;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+.btn-secondary {
+  border: 1px solid var(--border);
+  @apply px-6 py-3 rounded-md transition-all duration-200;
+}
+
+.btn-secondary:hover {
+  background-color: var(--muted);
+}
+
+/* 🧩 Cards */
+.card {
+  background-color: var(--muted);
+  border: 1px solid var(--border);
+  @apply p-6 rounded-lg transition-all duration-300;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* 🖼️ Images */
+img {
+  border-radius: 0.5rem;
+}
+
+/* ✨ Subtle animation helpers */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+}
