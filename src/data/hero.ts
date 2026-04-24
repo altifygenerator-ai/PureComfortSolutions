@@ -1,8 +1,8 @@
 export const heroData = {
-  heading: "Heating, Air, Remodeling & Landscaping — Done Right.",
+  heading: "HVAC, Remodeling & Landscaping — Done Right the First Time.",
   subheading:
-    "Licensed HVAC technician providing reliable heating & air service, quality home upgrades, and year‑round outdoor solutions across Northwest Arkansas.",
+    "From heating & air repairs to home upgrades and outdoor work, Pure Comfort Solutions delivers reliable, straightforward service across Northwest Arkansas. No runaround, just solid work you can count on.",
   ctaPrimary: "Call Now",
-  ctaSecondary: "Get Free Estimate",
-  backgroundImage: "/images/hero/hero.webp", // replace when you have their hero photo
+  ctaSecondary: "Get a Free Estimate",
+  backgroundImage: "/images/hero/hero.webp",
 };

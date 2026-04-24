@@ -1,7 +1,7 @@
 export const whyChooseUs = [
-  "Honest pricing, no surprises",
-  "Real experience, not guesswork",
-  "Work that lasts",
-  "Local and reliable",
-  "Licensed and insured",
+  "Upfront pricing — no surprises",
+  "Licensed HVAC experience",
+  "Work done right, not rushed",
+  "Local, reliable, and easy to reach",
+  "Built to last, not just look good",
 ];
